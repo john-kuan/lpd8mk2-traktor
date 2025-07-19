@@ -1,5 +1,6 @@
 # Traktor 4 Mappings for Akai LPD8 MK2
-# LPD8 Reflect
+
+# LPD8 MK2 Reflect
 
 A Python script to control and animate the LEDs on the Akai LPD8 MK2 via MIDI SysEx messages.
 
@@ -59,19 +60,33 @@ INIT_DURATION = 5.0
 INIT_INTERVAL = 0.05
 ```
 
-## Usage
+## Quick Start: loopMIDI + Traktor
 
-Run the script and follow the prompts:
+1. **Install loopMIDI**: Download and install from [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html). Launch loopMIDI and create a virtual ports named, for example, `LPD8MK2Reflect'.
 
-```bash
-python lpd8_reflect.py
-```
+2. **Configure ports**:
 
-1. Select your MIDI INPUT and OUTPUT ports.
-2. Watch the startup animation.
-3. Pads light up with breathing/static effects when pressed.
-4. Press pads to toggle their state and trigger ripple animations.
-5. Press Ctrl+C to quit and turn off all LEDs.
+   * In loopMIDI, click the **+** button to add ports.
+   * Rename them precisely to match the names you’ll select in the script and Traktor.
+
+3. **Run the Python script**:
+
+   ```bash
+   python lpd8_reflect.py
+   ```
+
+   * When prompted, choose **MIDI Input**: `LPD8MK2Reflect`.
+   * Then choose **MIDI Output**: `LPD8 MK2`. This should be to your LPD8 hardware.
+ 
+4. **Load the Traktor mapping**:
+
+   * Open **Traktor** and go to **Preferences** > **Controller Manager**.
+   * Click **Add** > **Generic MIDI**.
+   * For **Device**, select the imported `.tsi` file.
+   * Set **In-Port** to `LPD8 MK2`, **Out-Port** to `LPD8MK2Reflect`.
+   * Make sure the mapping is **Enabled**.
+
+5. **Use**: With your LPD8 MK2 connected and Traktor running, pressing pads will now trigger the LED animations in the script while controlling your configured FX in Traktor.
 
 # Traktor Mapping File
 The Traktor . tsi file included in this repository provides a preset mapping for two‑channel mixing with two FX groups (FX Unit 1 and FX Unit 2). The last effect in each group is mapped to the final two MIDI knobs—assigned to Turntable FX and Darkmatter.
