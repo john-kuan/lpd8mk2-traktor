@@ -125,6 +125,8 @@ Outputs
 | [Pad 8]     | Button 2       | In    | FX Unit 1  | Toggle  | Ch10.Note.G2    |
 | [Pad 8 LED] | Button 2       | Out   | FX Unit 1  | Output  | Ch10.Note.G2    |
 
+## Additional Information
+Midi SysEx inplementation info can be found here : https://github.com/john-kuan/lpd8mk2sysex
 
 ## License
 
