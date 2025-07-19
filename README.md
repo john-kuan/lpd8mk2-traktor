@@ -73,6 +73,9 @@ python lpd8_reflect.py
 4. Press pads to toggle their state and trigger ripple animations.
 5. Press Ctrl+C to quit and turn off all LEDs.
 
+# Traktor Mapping File
+The Traktor . tsi file included in this repository provides a preset mapping for two‑channel mixing with two FX groups (FX Unit 1 and FX Unit 2). The last effect in each group is mapped to the final two MIDI knobs—assigned to Turntable FX and Darkmatter.
+
 # Inputs
 
 | Pad 5                     | Pad 6                     | Pad 7                        | Pad 8                        | Knob 1         | Knob 2         | Knob 3         | Knob 4                   |
