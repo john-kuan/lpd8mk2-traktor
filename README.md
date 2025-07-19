@@ -101,7 +101,7 @@ The Traktor . tsi file included in this repository provides a preset mapping fo
 |---------------------------|---------------------------|------------------------------|-------------------------------|----------------|----------------|----------------|--------------------------|
 | FX Unit 1 On (Note C2)    | FX Unit 2 On (Note F2)    | FX Unit 2 Toggle (Note D2)   | FX Unit 2 Toggle (Note D♯2)   | FX Unit 2 CC 074 | FX Unit 2 CC 075 | FX Unit 2 CC 076 | Button 3 Hold (CC 077)   |
 
-Outputs
+# Outputs
 
 | Pad 5                          | Pad 6                          | Pad 7                          | Pad 8                          |
 |--------------------------------|--------------------------------|--------------------------------|--------------------------------|
