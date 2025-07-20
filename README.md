@@ -1,5 +1,7 @@
 # Traktor 4 Mappings for Akai LPD8 MK2
 
+https://github.com/user-attachments/assets/542543e8-6a04-45f6-bfe2-cac54cf1f12b
+
 ## Midi SysEx Implementation
 SysEx info can be found here : https://github.com/john-kuan/lpd8mk2sysex
 
