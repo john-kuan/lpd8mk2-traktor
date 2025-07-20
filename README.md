@@ -1,5 +1,8 @@
 # Traktor 4 Mappings for Akai LPD8 MK2
 
+## Midi SysEx Implementation
+SysEx info can be found here : https://github.com/john-kuan/lpd8mk2sysex
+
 # LPD8 MK2 Reflect
 
 A Python script to control and animate the LEDs on the Akai LPD8 MK2 via MIDI SysEx messages.
@@ -139,9 +142,6 @@ The Traktor . tsi file included in this repository provides a preset mapping fo
 | [Pad 7 LED] | Button 1       | Out   | FX Unit 1  | Output  | Ch10.Note.F#2   |
 | [Pad 8]     | Button 2       | In    | FX Unit 1  | Toggle  | Ch10.Note.G2    |
 | [Pad 8 LED] | Button 2       | Out   | FX Unit 1  | Output  | Ch10.Note.G2    |
-
-## Additional Information
-Midi SysEx inplementation info can be found here : https://github.com/john-kuan/lpd8mk2sysex
 
 ## License
 
